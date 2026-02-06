@@ -34,22 +34,22 @@ This means:
 
 ---
 
-## 🏗️ How the System Works
+## ⚙️ How the System Works
+
+
 User asks a question
-          ↓
+↓
 Question converted into embeddings
-          ↓
+↓
 FAISS searches relevant document chunks
-          ↓
+↓
 Top relevant chunks selected
-          ↓
+↓
 Prompt built using only those chunks
-          ↓
+↓
 LLM generates an answer
-          ↓
+↓
 Answer OR "Information not found in documents."
-
-
 
 ---
 
