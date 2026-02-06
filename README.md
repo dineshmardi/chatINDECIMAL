@@ -53,7 +53,6 @@ Answer OR "Information not found in documents."
 ---
 
 
-
 ## 📂 Project Structure
 
 chatINDECIMAL/
@@ -68,8 +67,6 @@ chatINDECIMAL/
 │   └── documents/       # Markdown policy & FAQ files
 
 
-
----
 
 ---
 
