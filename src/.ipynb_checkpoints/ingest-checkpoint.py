@@ -72,5 +72,4 @@ if __name__ == "__main__":
     chunks = prepare_chunks()
     print(f"Total chunks created: {len(chunks)}\n")
     print("Sample chunk:\n")
-    print(chunks[6]["content"][:600])
-
+    print(chunks[0])
