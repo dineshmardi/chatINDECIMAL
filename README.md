@@ -63,7 +63,7 @@ chatINDECIMAL/
 │   ├── rag_pipeline.py  # Retrieval + generation logic
 ├── data/
 │   └── documents/       # Markdown policy & FAQ files
-
+---
 
 ## ⚙️ Main Components Explained
 
