@@ -51,13 +51,12 @@ Answer OR "Information not found in documents."
 
 
 ---
-
 ## 📂 Project Structure
 
 chatINDECIMAL/
 ├── streamlit_app.py      # Chat-style web interface
 ├── README.md
-├── .env                 # API key 
+├── .env                 # API key (ignored by git)
 ├── .gitignore
 ├── src/
 │   ├── ingest.py        # Reads & chunks documents
@@ -65,9 +64,6 @@ chatINDECIMAL/
 ├── data/
 │   └── documents/       # Markdown policy & FAQ files
 
-
-
----
 
 ## ⚙️ Main Components Explained
 
