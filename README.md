@@ -71,6 +71,8 @@ chatINDECIMAL/
 
 ---
 
+---
+
 ## ⚙️ Main Components Explained
 
 ### 📄 Document Ingestion
