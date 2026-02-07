@@ -138,7 +138,7 @@ What is Indecimal’s phone number?
 How much does construction cost per square foot?
 What is the exact project completion time?
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python 3
 Sentence Transformers
@@ -146,7 +146,7 @@ FAISS (Vector Database)
 OpenRouter (LLM API)
 Streamlit
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 1️⃣ Install required libraries
 pip install sentence-transformers faiss-cpu streamlit requests python-dotenv
 
@@ -156,7 +156,7 @@ OPENROUTER_API_KEY=your_api_key_here
 3️⃣ Start the chatbot
 python -m streamlit run streamlit_app.py
 
-
+---
 
 👤 Author
 Dinesh Mardi
