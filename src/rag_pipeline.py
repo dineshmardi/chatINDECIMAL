@@ -58,9 +58,9 @@ def generate_answer(query, retrieved_chunks):
     prompt = f"""
 You are an AI assistant.
 Answer the question ONLY using the context below.
-Do NOT make assumptions or generalizations.
-If the context does not clearly supported by the context the answer,
-say exactly:
+If the question is a yes/no question and the answer is explicitly supported by the context,
+begin your answer with "Yes," or "No," accordingly.
+If the answer is not present in the context, say exactly:
 "Information not found in documents."
 
 Context:
