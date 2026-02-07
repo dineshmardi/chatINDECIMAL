@@ -116,7 +116,7 @@ bash-
 python -m streamlit run streamlit_app.py
 
 
-🔐 Why “Information not found” is a Feature
+## 🔐 Why “Information not found” is a Feature
 
 If the required information is not clearly written in the documents, the system refuses to answer.
 This is intentional and important because:
@@ -125,18 +125,23 @@ It avoids hallucinations.
 It builds trust.
 It matches real-world enterprise AI behavior.
 
-🧪 Example Questions
+## 🧪 Example Questions
 Questions the Bot Can Answer
 
 How does Indecimal ensure transparency?
 Can customers track construction progress online?
 How are payments released to contractors?
 
+
+---
+
 Questions the Bot Correctly Refuses
 
 What is Indecimal’s phone number?
 How much does construction cost per square foot?
 What is the exact project completion time?
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -145,6 +150,8 @@ Sentence Transformers
 FAISS (Vector Database)
 OpenRouter (LLM API)
 Streamlit
+
+---
 
 ## 🚀 How to Run the Project
 1️⃣ Install required libraries
