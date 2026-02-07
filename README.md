@@ -63,15 +63,16 @@ Answer OR "Information not found in documents."
 ---
 ## 📂 Project Structure
 
-chatINDECIMAL/
-streamlit_app.py ** Deployed chat-style UI**
-README.md
-.gitignore
-src/
-   ingest.py ** Document chunking and preprocessing **
-   rag_pipeline.py ** Retrieval + LLM answer generation **
-data/
-   documents/ ** Internal markdown documents **
+.
+└── chatINDECIMAL/
+    ├── data/
+    │   └── documents/       # Store your .md files here
+    ├── src/
+    │   ├── ingest.py        # Processes .md into FAISS vectors
+    │   └── rag_pipeline.py  # Handles query -> retrieval -> LLM
+    ├── streamlit_app.py     # Main UI entry point
+    ├── .gitignore           # Ignores __pycache__ and .env
+    └── README.md            # Project documentation
 
 
 ---
