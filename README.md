@@ -114,7 +114,7 @@ A chat-style UI is built using **Streamlit** to make the system easy to use.
 Run the chatbot UI using:
 bash-
 python -m streamlit run streamlit_app.py
-
+---
 
 🔐 Why “Information not found” is a Feature
 
@@ -124,20 +124,20 @@ This is intentional and important because:
 It avoids hallucinations.
 It builds trust.
 It matches real-world enterprise AI behavior.
-
+---
 🧪 Example Questions
 Questions the Bot Can Answer
 
 How does Indecimal ensure transparency?
 Can customers track construction progress online?
 How are payments released to contractors?
-
+---
 Questions the Bot Correctly Refuses
 
 What is Indecimal’s phone number?
 How much does construction cost per square foot?
 What is the exact project completion time?
-
+---
 🛠️ Technologies Used
 
 Python 3
@@ -145,7 +145,7 @@ Sentence Transformers
 FAISS (Vector Database)
 OpenRouter (LLM API)
 Streamlit
-
+---
 🚀 How to Run the Project
 1️⃣ Install required libraries
 pip install sentence-transformers faiss-cpu streamlit requests python-dotenv
@@ -155,7 +155,7 @@ OPENROUTER_API_KEY=your_api_key_here
 
 3️⃣ Start the chatbot
 python -m streamlit run streamlit_app.py
-
+---
 
 
 👤 Author
