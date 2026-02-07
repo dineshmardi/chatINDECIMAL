@@ -65,16 +65,16 @@ Answer OR "Information not found in documents."
 ## 📂 Project Structure
 
 chatINDECIMAL/
-├── streamlit_app.py # Deployed chat-style UI
-├── README.md
-├── .gitignore
-├── src/
-│ ├── ingest.py # Document chunking and preprocessing
-│ ├── rag_pipeline.py # Retrieval + LLM answer generation
-├── data/
-│ └── documents/ # Internal markdown documents
+streamlit_app.py # Deployed chat-style UI
+README.md
+.gitignore
+src/
+   ingest.py # Document chunking and preprocessing
+   rag_pipeline.py # Retrieval + LLM answer generation
+data/
+   documents/ # Internal markdown documents
 
----
+
 ---
 
 ## ⚙️ Main Components Explained
