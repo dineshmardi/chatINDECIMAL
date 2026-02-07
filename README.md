@@ -63,15 +63,17 @@ Answer OR "Information not found in documents."
 ---
 ## 📂 Project Structure
 
-chatINDECIMAL
-data
-documents # Store your .md files here
-src
-ingest.py # Processes .md into FAISS vectors
-rag_pipeline.py # Handles query → retrieval → LLM
-streamlit_app.py # Main UI entry point
-.gitignore # Ignores pycache and .env
-README.md # Project documentation
+
+- `chatINDECIMAL/`
+  - `data/`
+    - `documents/` – Store markdown files
+  - `src/`
+    - `ingest.py` – Document chunking
+    - `rag_pipeline.py` – Retrieval + LLM logic
+  - `streamlit_app.py` – UI entry point
+  - `.gitignore`
+  - `README.md`
+
 
 
 ---
