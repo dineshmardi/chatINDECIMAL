@@ -3,6 +3,12 @@
 ## 📌 About the Project
 **chatINDECIMAL** is an AI chatbot built using **Retrieval-Augmented Generation (RAG)** as part of an assignment.
 
+## 📄 Chat Examples (PDF)
+
+Sample chatbot interactions are available here:  
+[Chat_Examples.pdf](indecimal_assistant.pdf)
+
+
 here is live link you can interact
 **Live Demo:** https://chatindecimal-nfjq44jkykmakappfidyqns.streamlit.app/
 
