@@ -1,7 +1,9 @@
 # chatINDECIMAL — A Document-Grounded AI Chatbot (RAG)
 
 ## 📌 About the Project
-**chatINDECIMAL** is an AI chatbot built using **Retrieval-Augmented Generation (RAG)** as part of an academic assignment.
+**chatINDECIMAL** is an AI chatbot built using **Retrieval-Augmented Generation (RAG)** as part of an assignment.
+
+here is live link you can interact-vhttps://chatindecimal-nfjq44jkykmakappfidyqns.streamlit.app/
 
 Instead of answering from guesswork or general knowledge, this chatbot **reads and understands internal documents** (policies, FAQs, and process notes) and answers questions **only when the information is clearly available**.  
 If something is not mentioned in the documents, the bot clearly says so — avoiding hallucinations.
